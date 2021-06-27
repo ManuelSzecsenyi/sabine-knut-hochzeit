@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+
+    .logo {
+        height: 350px;
+    }
+
+    .announcement {
+        margin-top: 2rem;
+        border: 1px solid black;
+        padding: 1rem 2rem;
+    }
+
+    .imprint {
+        margin-top: 10vh;
+    }
+
+    .flower {
+        position: absolute;
+        height: 80%;
+        bottom: -30%;
+    }
+
+    .flower-left {
+        left: -10%;
+    }
+
+    .flower-right {
+        right: -10%;
+    }
+}
