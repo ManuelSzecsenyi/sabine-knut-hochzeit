@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 :root{
     font-size: 16px;
+
+    @media screen and (max-width: 867px) {
+        font-size: 14px;
+    }
 }
 
 
@@ -14,3 +18,11 @@ html {
     font-style: normal;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
